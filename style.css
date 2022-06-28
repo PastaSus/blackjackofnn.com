@@ -1,0 +1,38 @@
+@font-face{
+    font-family: "blackberryjam";
+    src: url(fonts/BlackberryJamPersonalUse-rXOB.ttf) format('truetype');
+}
+body{
+    /*margin-left: 80px;*/
+    text-align: center;
+    background-image: url("blackjackbg.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    font-family: Serif;
+    font-weight: bold;
+}
+
+h1 {
+    color: goldenrod;
+    font-family: "blackberryJam";
+    font-weight: normal;
+    font-size: 40px;
+}
+
+#message-el{
+    color: white;
+    font-style: italic;
+}
+button{
+    color: #016f32;
+    width: 150px;
+    background: goldenrod;
+    font-weight: bold;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 5px;
+    border: none;
+    margin-bottom: 2px;
+    margin-top: 2px;
+}
